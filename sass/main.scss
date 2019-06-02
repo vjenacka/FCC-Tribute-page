@@ -1,1 +1,62 @@
 @import 'reset';
+
+#main{
+    width: 90%;
+    margin: 5vh auto;
+    background-color: #6be471;
+    color: #222;
+    border-radius: 5px;
+
+    h1{
+        padding: 20px 0;
+    }
+    p{
+        padding-bottom: 20px;   
+    }
+    .wiki-page{
+        font-weight: bold;
+        font-size: 1.1rem;
+
+        a{
+            text-decoration: none;
+            color: rgb(43, 94, 236);
+        }
+    }
+}
+
+#main #img-div{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f3f3f3f3;
+
+    img{
+        max-width: 90%;
+        display: block;
+        padding: 15px 0;
+        margin: 0 auto;
+    }
+    figcaption{
+        padding-bottom: 15px;
+    }
+}
+
+#main article{
+    width: 50%;
+    margin: 10vh auto 10vh auto;
+
+    h3{
+        margin-bottom: 10vh;
+    }
+
+    ul li{
+        margin: 10px 0;
+
+        span{
+            font-weight: bold;
+        }
+    }
+
+    div{
+        margin-top: 10vh;
+    }
+}
